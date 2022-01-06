@@ -15,6 +15,7 @@ Create a simple Customers Crud with Vuejs 3 and Laravel 8.
 - Vue (Routing, Services, Forms and more..)
 
 ## Add this vhost
+```
 <VirtualHost *:80> 
     DocumentRoot "YOUR_WEB_ROOT_SERVER/www/laravel-vuejs-3-api-composition/public/"
     ServerName laravel-vuejs-3-api-composition.test
@@ -24,6 +25,7 @@ Create a simple Customers Crud with Vuejs 3 and Laravel 8.
         Require all granted
     </Directory>
 </VirtualHost>
+```
 
 ## Install
 ```
